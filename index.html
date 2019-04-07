@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css">
+</head>
+<body class="bg-primary">
+    <div class="container mt-4">
+        <h1 class="display-3 text-center  text-light ">Weight Converter</h1>
+        <form>
+            <div class="form-group ">
+                <input id="lbsInput" type="number" class="form-control form-control-lg bg-light" placeholder="Enter Pounds">
+            </div>
+        </form>
+        <div id="output">
+            <div class="card bg-warning">
+                <div class="card-block mb-3">
+                    <h4 class="text-light">Grams:</h4>
+                    <div id="gramsOutput" class="text-light"></div>
+                </div>
+            </div>
+            <div class="card bg-success">
+                <div class="card-block mb-3 ">
+                    <h4 class="text-light">Kilograms:</h4>
+                    <div id="kgOutput" class="text-light"></div>
+                </div>
+            </div>
+            <div class="card bg-info">
+                <div class="card-block mb-3">
+                    <h4 class="text-light">Ounces:</h4>
+                    <div id="ozOutput" class="text-light"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
